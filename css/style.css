@@ -1,0 +1,195 @@
+*{
+font-family: sans-serif;
+text-align: center;
+}
+
+body{
+margin:0;
+width: 100%;
+}
+
+header{
+display: flex;
+justify-content:space-around;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background:;
+}
+header #logo h1{
+color:red;
+}
+header #logo h1::first-letter{
+color:#fff;
+text-shadow: 2px 1px 1px #333;
+font-size: 1.3em;
+text-transform: uppercase;
+}
+
+
+header .menu nav{
+margin-top:40px;
+}
+
+header .menu nav a{
+text-decoration: none;
+padding:10px;
+text-align: center;
+text-transform: uppercase;
+display: inline;
+text-shadow: 3px 2px 1px gray;
+color:#fff;
+outline:none;
+font-weight: bold;
+}
+
+.menu nav a:hover{
+text-decoration: underline yellow;
+animation:doit 1s;
+}
+
+@keyframes doit{
+from {background:none;}
+to{background:red; border-radius: 50px;}
+}
+
+
+.showcase{
+padding:20% 10% 20% 10%;
+background:/url(../images/adult-app-developer-business-1181244.jpg) no-repeat;
+background-size: cover;
+background-color: #340243;
+}
+.showcase h1{
+font-size: 3em;
+color: #fff;
+}
+
+.showcase p{
+color: #fff;
+}
+
+.showcase button{
+border:none;
+padding:10px;
+background:red;
+color: #fff;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+}
+.showcase button:hover{
+background:white;
+color: #333;
+
+}
+
+#projects{
+background:#f4f4f4;
+padding:5px;
+}
+.project{
+padding:5% 10% 5% 10%;
+display: flex;
+justify-content:center;
+background:#f4f4f4;
+}
+
+.project .box{
+width:360px;
+height: auto;
+padding:5px;
+margin:0px 5px;
+box-shadow: 3px 2px 1px #333;
+background:#fff;
+}
+
+.project .box:hover{
+background:#F4F4F4;
+transition: 2s;
+cursor:pointer; 
+margin-top:5px;
+}
+
+.projectt{
+padding:0% 10% 5% 10%;
+display: flex;
+justify-content:center;
+background:#f4f4f4;
+}
+
+.projectt .box{
+width:360px;
+height: auto;
+padding:5px;
+margin:0px 5px;
+box-shadow: 3px 2px 1px #333;
+background:#fff;
+}
+
+.projectt .box:hover{
+background:#F4F4F4;
+transition: 2s;
+cursor:pointer; 
+margin-top:5px;
+}
+
+.box img{
+height:180px;
+width:360px;
+}
+
+.aboutme .boxes meter{
+width:100%;
+display: table-cell;
+}
+
+
+/* ----------Form section------------ */
+.contact{
+padding:10% 10% 5% 10%;
+background:gray;
+margin-top: 7%;
+}
+
+.contact form{
+margin:auto;
+}
+
+.contact form input{
+text-align: left;
+border:1px solid black;
+padding:5px;
+width: 360px;
+margin:5px;
+border-radius: 5px;
+}
+
+.contact form textarea{
+text-align: left;
+border:1px solid black;
+width: 360px;
+margin:5px;
+border-radius: 5px;
+}
+
+.contact form select{
+border:1px solid black;
+width: 360px;
+margin:5px;
+border-radius: 5px;
+}
+.contact form button{
+border:1px solid black;
+width: 360px;
+margin:5px;
+padding:5px;
+border-radius: 5px;
+background:red;
+}
+.contact form button:hover{
+background:#fff;
+transition:2s;
+cursor: pointer;
+}
